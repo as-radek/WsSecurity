@@ -10,11 +10,11 @@ class Security extends Element
 {
     const NAME = 'Security';
 
-    const ATTRIBUTE_MUST_UNDERSTAND = ':mustunderstand';
+    const ATTRIBUTE_MUST_UNDERSTAND = ':mustUnderstand';
 
     const ATTRIBUTE_ACTOR = ':actor';
 
-    const ENV_NAMESPACE = 'SOAP-ENV';
+    const ENV_NAMESPACE = 'soap-env';
 
     protected ?UsernameToken $usernameToken = null;
 
