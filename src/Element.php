@@ -79,7 +79,7 @@ class Element
     {
         // Create element tag.
         $element = self::getDom()->createElement($this->getNamespacedName());
-        $element->setAttributeNS('http://www.w3.org/2000/xmlns/', sprintf('xmlns:%s', $this->getNamespacePrefix()), $this->getNamespace());
+        $element->setAttributeNS('http://schemas.xmlsoap.org/soap/envelope/', sprintf('xmlns:%s', $this->getNamespacePrefix()), $this->getNamespace());
 
         // Define element value, add attributes if there are any
         $this
