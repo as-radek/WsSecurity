@@ -14,7 +14,7 @@ class Security extends Element
 
     const ATTRIBUTE_ACTOR = ':actor';
 
-    const ENV_NAMESPACE = 'soap-env';
+    const ENV_NAMESPACE = 'soapenv';
 
     protected ?UsernameToken $usernameToken = null;
 
